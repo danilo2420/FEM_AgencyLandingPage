@@ -33,3 +33,31 @@ header {
     padding-top: 48px;
     padding-bottom: 140px;
 }
+
+/* EGG SECTION */
+.eggSection__image {
+    width: 100%;
+}
+
+.eggSection__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+
+    text-align: center;
+
+    margin: 67.5px 24px;
+}
+
+.eggSection__content__title {
+    color: var(--grey950);
+}
+
+.eggSection__content__text {
+    color: var(--grey550);
+}
+
+.eggSection__content__learnMore {
+    color: var(--grey950);
+}
