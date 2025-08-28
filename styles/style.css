@@ -60,4 +60,20 @@ header {
 
 .eggSection__content__learnMore {
     color: var(--grey950);
+    position: relative;
+}
+
+.eggSection__content__learnMore::before {
+    content: "";
+
+    width: 137px;
+    height: 10px;
+
+    position: absolute;
+    bottom: -1px;
+    left: -4px;
+    
+    background-color: var(--yellow500);
+    opacity: 0.25;
+    z-index: -1;
 }
