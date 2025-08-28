@@ -3,6 +3,7 @@
 /* HEADER */
 header {
     height: 538px;
+    color: var(--white);
 
     background-image: url('../images/mobile/image-header.jpg');
     background-position: center;
@@ -12,8 +13,6 @@ header {
 }
 
 .header__top {
-    border: solid purple 1px;
-
     padding-top: 32px;
     padding-left: 24px;
     padding-right: 24px;
@@ -24,4 +23,13 @@ header {
 
 .header__top__burgerMenu {
     height: 18px;
+}
+
+.header__title {
+    margin-top: 80px;
+}
+
+.header__arrow {
+    padding-top: 48px;
+    padding-bottom: 140px;
 }
