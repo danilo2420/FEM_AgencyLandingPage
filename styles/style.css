@@ -35,11 +35,11 @@ header {
 }
 
 /* EGG SECTION */
-.eggSection__image {
+.eggSection__image, .cupSection__image {
     width: 100%;
 }
 
-.eggSection__content {
+.eggSection__content, .cupSection__content {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -50,20 +50,20 @@ header {
     margin: 67.5px 24px;
 }
 
-.eggSection__content__title {
+.eggSection__content__title, .cupSection__content__title {
     color: var(--grey950);
 }
 
-.eggSection__content__text {
+.eggSection__content__text, .cupSection__content__text {
     color: var(--grey550);
 }
 
-.eggSection__content__learnMore {
+.eggSection__content__learnMore, .cupSection__content__learnMore {
     color: var(--grey950);
     position: relative;
 }
 
-.eggSection__content__learnMore::before {
+.eggSection__content__learnMore::before, .cupSection__content__learnMore::before {
     content: "";
 
     width: 137px;
@@ -76,4 +76,12 @@ header {
     background-color: var(--yellow500);
     opacity: 0.25;
     z-index: -1;
+}
+
+.eggSection__content__learnMore::before {
+    background-color: var(--yellow500);
+}
+
+.cupSection__content__learnMore::before {
+    background-color: var(--red400);
 }
