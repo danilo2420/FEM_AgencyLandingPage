@@ -118,3 +118,106 @@ header {
 .fruit__content {
     color: var(--green600);
 }
+
+/* SOCIAL PROOF SECTION */
+.socialproofSection__wrapper {
+    margin-top: 55px;
+    margin-bottom: 55px;
+
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+}
+
+.socialproofSection__wrapper__title {
+    color: var(--grey400);
+}
+
+.socialproofSection__wrapper__testimonials {
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+}
+
+.testimonial {
+    margin: 15px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.testimonial__image {
+    width: 72px;
+    height: 72px;
+
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+
+    margin-bottom: 58px;
+}
+
+.image__emily {
+    background-image: url('../images/image-emily.jpg');
+}
+
+.image__thomas {
+    background-image: url('../images/image-thomas.jpg');
+}
+
+.image__jennie {
+    background-image: url('../images/image-jennie.jpg');
+}
+
+.testimonial__content {
+    margin-bottom: 32px;
+    color: var(--grey600);
+}
+
+.testimonial__userInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.testimonial__userInfo__name {
+    color: var(--grey950);
+}
+
+.testimonial__userInfo__position {
+    color: var(--grey400);
+}
+
+/* MISC SECTION */
+.miscSection {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    width: 100%;
+    height: 100vw;
+}
+
+.miscSection > div {
+    background-position: center;
+    background-size: cover;
+}
+
+.miscSection__milk {
+    background-image: url('../images/mobile/image-gallery-milkbottles.jpg');
+}
+
+.miscSection__orange {
+    background-image: url('../images/mobile/image-gallery-orange.jpg');
+}
+
+.miscSection__cone {
+    background-image: url('../images/mobile/image-gallery-cone.jpg');
+}
+
+.miscSection__cubes {
+    background-image: url('../images/mobile/image-gallery-sugar-cubes.jpg');
+}
