@@ -221,3 +221,35 @@ header {
 .miscSection__cubes {
     background-image: url('../images/mobile/image-gallery-sugar-cubes.jpg');
 }
+
+/* FOOTER */
+footer {
+    padding: 73.5px 38.5px;
+
+    background-color: var(--green300);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer__logo {
+    margin-bottom: 40px;
+    height: 33px;
+}
+
+.footer__links {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+    color: var(--green500);
+
+    margin-bottom: 80px;
+}
+
+.footer__socialMedia {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
