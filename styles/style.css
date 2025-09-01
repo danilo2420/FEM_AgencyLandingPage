@@ -355,4 +355,22 @@ footer {
         margin-left: 84px;
         margin-right: 84px;
     }
+
+    /* MISC SECTION */ 
+    .miscSection__milk {
+        background-image: url('../images/desktop/image-gallery-milkbottles.jpg');
+    }
+
+    .miscSection__orange {
+        background-image: url('../images/desktop/image-gallery-orange.jpg');
+    }
+
+    .miscSection__cone {
+        background-image: url('../images/desktop/image-gallery-cone.jpg');
+    }
+
+    .miscSection__cubes {
+        background-image: url('../images/desktop/image-gallery-sugarcubes.jpg');
+    }
+
 }
