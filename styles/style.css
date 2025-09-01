@@ -21,6 +21,10 @@ header {
     justify-content: space-between;
 }
 
+.header__top__menu {
+    display: none;
+}
+
 .header__top__burgerMenu {
     height: 18px;
 }
@@ -286,9 +290,9 @@ footer {
         font-size: 56px;
         line-height: 125%;
         letter-spacing: 9px;
+
         padding-left: 15%;
         padding-right: 15%;
-
         margin-bottom: 72px;
     }
 
@@ -379,3 +383,36 @@ footer {
         padding-right: 30%;
     }
 }
+
+@media (min-width: 1000px) {
+
+    /* HEADER */ 
+    .header__top {
+        padding-top: 40px;
+
+        align-items: center;
+    }
+
+    .header__title {
+        margin-top: 96px;
+        margin-bottom: 96px;
+    }
+
+    .header__top__burgerMenu {
+        display: none;
+    }
+
+    .header__top__menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 48px;
+    }
+
+    .header__top__menu .tp8 {
+        color: var(--grey950);
+        background-color: var(--white);
+        padding: 15.5px 27.5px;
+        border-radius: 28px;
+    }
+} 
