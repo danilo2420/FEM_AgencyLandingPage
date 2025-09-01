@@ -253,3 +253,43 @@ footer {
     justify-content: space-between;
     gap: 24px;
 }
+
+
+
+/** TABLET VERSION **/
+@media(min-width: 600px) {
+
+    /* HEADER */
+    header {
+        height: 800px;
+
+        background-image: url('../images/desktop/image-header.jpg');
+    }
+
+    .header__top {
+        padding-top: 48px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .header__top__logo {
+        height: 33px;
+    }
+
+    .header__top__burgerMenu {
+        height: 33px;
+    }
+
+    .header__title {
+        /* tp1 */
+        font-weight: 900;
+        font-size: 56px;
+        line-height: 125%;
+        letter-spacing: 9px;
+        padding-left: 15%;
+        padding-right: 15%;
+
+        margin-bottom: 72px;
+    }
+
+}
