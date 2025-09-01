@@ -337,4 +337,22 @@ footer {
         padding-right: 20%;
         padding-bottom: 56px;
     }
+
+    /* SOCIAL PROOF SECTION */
+    .socialproofSection {
+        margin-bottom: 71.5px;
+    }
+
+    .socialproofSection__wrapper {
+        margin-top: 71.5px;
+    }
+
+    .socialproofSection__wrapper__title {
+        margin-bottom: 24px;
+    }
+
+    .testimonial {
+        margin-left: 84px;
+        margin-right: 84px;
+    }
 }
