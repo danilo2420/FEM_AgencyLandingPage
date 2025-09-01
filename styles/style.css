@@ -292,7 +292,7 @@ footer {
         margin-bottom: 72px;
     }
 
-    /* EGG SECTION */
+    /* EGG AND CUP SECTIONS */
     .eggSection__image {
         background-image: url('../images/desktop/image-transform.jpg');
     }
@@ -321,5 +321,20 @@ footer {
     .eggSection__content__learnMore, .cupSection__content__learnMore {
         color: var(--grey950);
         position: relative;
+    }
+
+    /* FRUIT SECTION */
+    .fruitSection__cherries {
+        background-image: url('../images/desktop/image-graphic-design.jpg');
+    }
+
+    .fruitSection__orange {
+        background-image: url('../images/desktop/image-photography.jpg');
+    }
+
+    .fruit__content {
+        padding-left: 20%;
+        padding-right: 20%;
+        padding-bottom: 56px;
     }
 }
