@@ -292,4 +292,34 @@ footer {
         margin-bottom: 72px;
     }
 
+    /* EGG SECTION */
+    .eggSection__image {
+        background-image: url('../images/desktop/image-transform.jpg');
+    }
+
+    .cupSection__image {
+        background-image: url('../images/desktop/image-stand-out.jpg');
+    }
+
+    .eggSection__content, .cupSection__content {
+        gap: 32px;
+        margin: 67.5px 158.5px;
+    }
+
+    .eggSection__content__title, .cupSection__content__title {
+        /* tp3 */
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 125%;
+        letter-spacing: 0px;
+    }
+
+    .eggSection__content__text, .cupSection__content__text {
+        color: var(--grey550);
+    }
+
+    .eggSection__content__learnMore, .cupSection__content__learnMore {
+        color: var(--grey950);
+        position: relative;
+    }
 }
