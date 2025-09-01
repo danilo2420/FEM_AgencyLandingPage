@@ -373,4 +373,9 @@ footer {
         background-image: url('../images/desktop/image-gallery-sugarcubes.jpg');
     }
 
+    /* FOOTER */
+    footer {
+        padding-left: 30%;
+        padding-right: 30%;
+    }
 }
