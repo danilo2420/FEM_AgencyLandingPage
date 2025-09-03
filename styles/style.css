@@ -21,8 +21,26 @@ header {
     justify-content: space-between;
 }
 
+.header__top__logo {
+    transition: all 0.2s ease-in-out;
+}
+
 .header__top__menu {
     display: none;
+}
+
+.header__top__menu > * {
+    cursor: pointer;
+}
+
+.header__top__menu__item {
+    transition: all 0.2s ease-in-out;
+}
+
+.header__top__menu__contact {
+    cursor: pointer;
+    transition: color 0.2s ease-in-out,
+                background-color 0.2s ease-in-out;
 }
 
 .header__top__burgerMenu {
@@ -485,5 +503,20 @@ footer {
     .footer__links {
         width: 300px !important;
     }
-    
-} 
+}
+
+/** ANIMATIONS AND EFFECTS */
+.header__top__logo:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.header__top__menu__item:hover {
+    transform: scale(1.1);
+    font-weight: 700;
+}
+
+.header__top__menu__contact:hover {
+    color: var(--white);
+    background-color: #77cdf5;
+}
