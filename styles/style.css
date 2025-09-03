@@ -447,4 +447,10 @@ footer {
         width: 100%;
         text-align: left;
     }
+
+    /* FRUIT SECTION */
+    .fruitSection {
+        display: flex;
+        
+    }
 } 
