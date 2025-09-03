@@ -451,6 +451,23 @@ footer {
     /* FRUIT SECTION */
     .fruitSection {
         display: flex;
-        
+    }
+
+    /* SOCIAL PROOF SECTION */
+    .socialproofSection__wrapper {
+        margin-top: 162px;
+        margin-bottom: 162px;
+    }
+    .socialproofSection__wrapper__testimonials {
+        flex-direction: row;
+        justify-content: space-between;
+        padding-left: 60px;
+        padding-right: 60px;
+        margin: auto;
+    }
+
+    .testimonial {
+        max-width: 350px;
+        margin: 0px;
     }
 } 
