@@ -48,6 +48,7 @@ header {
 }
 
 .header__title {
+    cursor: default;
     margin-top: 80px;
 }
 
@@ -225,7 +226,8 @@ header {
 
 .miscSection > div {
     background-position: center;
-    background-size: cover;
+    background-size: 100%;
+    transition: 0.2s;
 }
 
 .miscSection__milk {
@@ -275,8 +277,6 @@ footer {
     justify-content: space-between;
     gap: 24px;
 }
-
-
 
 /** TABLET VERSION **/
 @media(min-width: 600px) {
@@ -506,6 +506,7 @@ footer {
 }
 
 /** ANIMATIONS AND EFFECTS */
+/* Header animations */
 .header__top__logo:hover {
     cursor: pointer;
     transform: scale(1.1);
@@ -519,4 +520,10 @@ footer {
 .header__top__menu__contact:hover {
     color: var(--white);
     background-color: #77cdf5;
+}
+
+
+/* Misc animations */
+.miscSection > *:hover {
+    background-size: 110% auto;
 }
