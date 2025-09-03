@@ -470,4 +470,20 @@ footer {
         max-width: 350px;
         margin: 0px;
     }
+
+    /* MISC SECTION */
+    .miscSection {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        height: 450px;
+    }
+
+    /* FOOTER */
+    footer {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .footer__links {
+        width: 300px !important;
+    }
+    
 } 
