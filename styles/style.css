@@ -384,7 +384,7 @@ footer {
     }
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1100px) {
 
     /* HEADER */ 
     .header__top {
@@ -414,5 +414,37 @@ footer {
         background-color: var(--white);
         padding: 15.5px 27.5px;
         border-radius: 28px;
+    }
+
+    /* EGG AND CUP SECTIONS */
+    .eggSection, .cupSection {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .cupSection {
+        flex-direction: row-reverse;
+    }
+
+    .eggSection__image, .cupSection__image {
+        width: 50%;
+        height: 50vw;
+        object-fit: cover;
+    }
+
+    .eggSection__content, .cupSection__content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 100px 120px;
+    }
+
+    .eggSection__content__text, .cupSection__content__text {
+        text-align: left;
+    }
+
+    .eggSection__content__learnMore, .cupSection__content__learnMore {
+        width: 100%;
+        text-align: left;
     }
 } 
