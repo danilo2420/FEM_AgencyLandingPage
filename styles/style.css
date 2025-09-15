@@ -335,10 +335,23 @@ footer {
     margin-bottom: 80px;
 }
 
+.footer__links > * {
+    transition: color 0.2s;
+    cursor: pointer;
+}
+
+.footer__links > *:hover {
+    color: var(--white);
+}
+
 .footer__socialMedia {
     display: flex;
     justify-content: space-between;
     gap: 24px;
+}
+
+.footer__socialMedia > * {
+    cursor: pointer;
 }
 
 /** TABLET VERSION **/
@@ -421,6 +434,8 @@ footer {
     .eggSection__content__learnMore, .cupSection__content__learnMore {
         color: var(--grey950);
         position: relative;
+
+        cursor: pointer;
     }
 
     /* FRUIT SECTION */
@@ -580,6 +595,22 @@ footer {
     }
     .footer__links {
         width: 300px !important;
+    }
+
+    .footer__socialMedia__facebook:hover {
+        content: url('../images/white-icons/icon-facebook.svg');
+    }
+
+    .footer__socialMedia__instagram:hover {
+        content: url('../images/white-icons/icon-instagram.svg');
+    }
+    
+    .footer__socialMedia__twitter:hover {
+        content: url('../images/white-icons/icon-twitter.svg');
+    }
+
+    .footer__socialMedia__pinterest:hover {
+        content: url('../images/white-icons/icon-pinterest.svg');
     }
 }
 
