@@ -364,6 +364,10 @@ footer {
         margin-bottom: 72px;
     }
 
+    .header__mobileMenu {
+        top: 100px;
+    }
+
     /* EGG AND CUP SECTIONS */
     .eggSection__image {
         background-image: url('../images/desktop/image-transform.jpg');
