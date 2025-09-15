@@ -57,6 +57,56 @@ header {
     padding-bottom: 140px;
 }
 
+.header__mobileMenu {
+    position: absolute;
+    top: 65px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+
+    display: none;
+}
+
+.header__mobileMenu__triangle {
+    height: 30px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.header__mobileMenu__triangle > * {
+    width: 25px;
+    height: 25px;
+    background-color: var(--white);
+
+    transform: skew(0deg, -45deg);
+
+    position: relative;
+    top: 18px;
+    left: 0.5px;
+}
+
+.header__mobileMenu__content {
+    width: 90vw;
+    background-color: var(--white);
+    padding: 40px;
+
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.header__mobileMenu__content__item {
+    color: var(--grey550);
+}
+
+.header__mobileMenu__content__ContactItem {
+    padding: 15.5px 37.5px;
+    
+    background-color: var(--yellow500);
+    border-radius: 28px;
+}
+
 /* EGG AND CUP SECTIONS */
 .eggSection__image, .cupSection__image {
     width: 100%;
