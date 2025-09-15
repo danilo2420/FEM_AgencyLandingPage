@@ -55,6 +55,19 @@ header {
 .header__arrow {
     padding-top: 48px;
     padding-bottom: 140px;
+
+    animation: arrowAnimation 1s ease-in-out 0s 3;
+}
+
+@keyframes arrowAnimation {
+    0% {
+        transform: translate(0, -10%);
+        opacity: 0;
+    }
+    100% {
+        transform: translate(0, 0);
+        opacity: 1;
+    }
 }
 
 .header__mobileMenu {
@@ -362,6 +375,17 @@ footer {
         padding-left: 15%;
         padding-right: 15%;
         margin-bottom: 72px;
+    }
+
+    @keyframes arrowAnimation {
+        0% {
+            transform: translate(0, -30%);
+            opacity: 0;
+        }
+        100% {
+            transform: translate(0, 0%);
+            opacity: 1;
+        }
     }
 
     .header__mobileMenu {
